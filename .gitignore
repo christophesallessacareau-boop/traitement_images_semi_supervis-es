@@ -1,26 +1,26 @@
-# Environnements virtuels
+# Environnement virtuel
+venv312/
 .venv/
 venv/
 env/
-.venv312/
 
 # Cache Python
 __pycache__/
 *.py[cod]
-*.pyo
 
-# Fichiers d’images
-*.jpg
-*.jpeg
-*.png
+# Datasets et archives
+*.zip
+*.tar
+*.gz
 
-# Fichiers temporaires
-*.log
-*.tmp
+# Notebooks checkpoints
+.ipynb_checkpoints/
 
 # OS
 .DS_Store
 Thumbs.db
 
-data/
+*.jpeg
+*.jpg
+
 
