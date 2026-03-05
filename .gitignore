@@ -1,0 +1,26 @@
+# Environnements virtuels
+.venv/
+venv/
+env/
+.venv312/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Fichiers d’images
+*.jpg
+*.jpeg
+*.png
+
+# Fichiers temporaires
+*.log
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+data/
+
