@@ -4,23 +4,26 @@ https://github.com/christophesallessacareau-boop/traitement_images_semi_supervis
 Classification d'IRM cérébrales — CNN Semi-Supervisé:
 
 Détection de cancers du cerveau par apprentissage semi-supervisé sur images IRM,  
-avec un dataset mixte : images labelisées (cancer / normal) et images NON labelisées:
-50 images labelisées cancer
-50 images labelisées normal
+avec un dataset mixte : images labelisées (cancer / normal) et images NON labelisées:  
+50 images labelisées cancer  
+50 images labelisées normal  
 1400 images NON labelisées
 
-mapping des labels:
-0=normal
+mapping des labels:  
+0=normal  
 1=cancer
 
-Versions testées : Python 3.12.8, TensorFlow 2.17.0, scikit-learn 1.5.1
+Versions testées :  
+Python 3.12.8,  
+TensorFlow 2.17.0,  
+scikit-learn 1.5.1  
 voir fichier requirements.txt pour les autres bibliothèques
 
-Métriques évaluées:
-Recall: Taux de détection des cancers (à maximiser)
-False Negatives: Cancers manqués (cas le plus critique)
-False Positives: Fausses alarmes
-F1 score: arbitrage faux négatifs vs faux positifs (à maximiser)
+Métriques évaluées:  
+Recall: Taux de détection des cancers (à maximiser)  
+False Negatives: Cancers manqués (cas le plus critique)  
+False Positives: Fausses alarmes  
+F1 macro: arbitrage faux négatifs vs faux positifs (à maximiser)
 
 Pipeline:
 1. Chargement (CV2) & préprocessing des images
