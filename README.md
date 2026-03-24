@@ -1,8 +1,15 @@
 Projet accessible sous GitHub:
-https://github.com/christophesallessacareau-boop/traitement_images_semi_supervis-es
+https://github.com/christophesallessacareau-boop/traitement_images_semi_supervis-es  
 
-Classification d'IRM cérébrales — CNN Semi-Supervisé:
+le projet contient 2 notebooks:  
+-code d'extraction des images zippées: 1_extract_zip.ipynb  
+-code principal: main.ipynb   
 
+Classification d'IRM cérébrales:  
+  
+-modèles de clustering  
+
+-modele CNN:  
 Détection de cancers du cerveau par apprentissage semi-supervisé sur images IRM,  
 avec un dataset mixte : images labelisées (cancer / normal) et images NON labelisées:  
 50 images labelisées cancer  
